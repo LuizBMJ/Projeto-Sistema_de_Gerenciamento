@@ -23,24 +23,30 @@
         </nav>
     </header>
     <main>
-        <section id="container-login">
-            <h1>Login</h1>
-            <article class="inputs">
-                <p class="user">
-                    <input type="text" name="username" id="username" placeholder="Usuário">
-                </p>
-                <p class="user">
-                    <input type="password" name="password" id="password" placeholder="Senha">
-                </p>
-                <p class="enviar">
-                    <input type="submit" value="Acessar">
-                </p>
-                <p class="esquecer">
-                    <a href="#">Esqueci minha senha</a>
-                </p>
-            </article>
+        <section id="container-home">
+                <h1>
+                    Bem vindo de volta!
+                </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis est, voluptatem, at inventore, quisquam itaque soluta minus aliquam optio nisi provident. Sed est facilis cum non nisi nemo earum vel.</p>
         </section>
-        <section id="container-cadastro">
+        <section id="container-login" class="registros">
+            <h1>Login</h1>
+                <form action="login.php" method="POST" class="formulario">
+                    <p class="user">
+                        <input type="text" name="username" id="username" placeholder="Usuário" required>
+                    </p>
+                    <p class="user">
+                        <input type="password" name="password" id="password" placeholder="Senha" required>
+                    </p>
+                    <p class="enviar">
+                        <input type="submit" value="Acessar">
+                    </p>
+                    <p class="esquecer">
+                        <a href="#">Esqueci minha senha</a>
+                    </p>
+                </form>
+        </section>
+        <section id="container-cadastro" class="registros">
             <h1>Cadastro</h1>
             <article id="inputs-cadastro">
                 

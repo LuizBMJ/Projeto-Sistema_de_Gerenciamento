@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 360px) {
+
+    section#container-home h1 {
+        font-size: 2.2em;
+    }
+
+    section#container-home p {
+        font-size: 0.95em;
+    }
+
+    .formulario p.user {
+        max-width: 260px;
+    }
+
+    .formulario p input,
+    .formulario p a {
+        max-width: 260px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    section#container-home {
+        max-width: 360px;
+    }
+
+    section#container-home h1 {
+        font-size: 3.2em;
+    }
+
+    section#container-home p {
+        font-size: 1.05em;
+    }
+
+    .formulario p.user {
+        max-width: 360px;
+    }
+
+    .formulario p input,
+    .formulario p a {
+        max-width: 360px;
+    }
+}
+
+@media screen and (min-width: 1028px) {
+
+    body {
+        background: url(../imagens/Background-Media-Query.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    main {
+        grid-template-columns: auto 45% 45% auto;
+        grid-template-rows: auto;
+        align-items: center;
+    }
+
+    section#container-home {
+        grid-column: 2;
+        grid-row: auto;
+        max-width: 420px;
+    }
+
+    section#container-home h1 {
+        font-size: 3.6em;
+    }
+
+    section#container-home p {
+        font-size: 1.1em;
+    }
+
+    section.registros {
+        grid-column: 3;
+        grid-row: auto;
+    }
+
+    section.registros h1 {
+        color: var(--cor-texto-principal);
+        font-size: 2.4em;
+    }
+
+    section.registros p.esquecer a {
+        color: var(--cor-branco-suave);
+    }
+
+    .formulario p.user {
+        max-width: 380px;
+    }
+
+    .formulario p input,
+    .formulario p a {
+        max-width: 380px;
+    }
+
+    .formulario p.user input {
+        height: 40px;
+    }
+
+    .formulario p.enviar input {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    section#container-home {
+        max-width: 480px;
+    }
+
+    section#container-home h1 {
+        font-size: 4em;
+    }
+
+    section#container-home p {
+        font-size: 1.2em;
+    }
+
+    .formulario p.user {
+        max-width: 420px;
+    }
+
+    .formulario p input,
+    .formulario p a {
+        max-width: 420px;
+    }
+
+    .formulario p.enviar input {
+        width: 140px;
+        height: 42px;
+    }
+}
+
+
+
+
