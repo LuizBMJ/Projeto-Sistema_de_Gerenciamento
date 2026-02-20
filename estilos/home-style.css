@@ -52,7 +52,7 @@ body {
 }
 
 body {
-    transition: background-color 0.3s ease, background 0.3s ease, border 0.3s ease, outline 0.3s ease;
+    transition: background-color 0.3s ease, background 0.3s ease, border 0.3s ease
 }
 
 body h1 {
@@ -70,12 +70,17 @@ body p {
 header {
     background-color: var(--cor-header);
     display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    height: 75px;
     padding: 15px 5%;
     border-bottom: 2px solid var(--cor-principal);
     position: sticky;
     top: 0;
     z-index: 1;
     transition: background-color 0.3s ease;
+}
+
+#header-left h1 {
+    transition: font-size 0.3s ease;
 }
 
 #header-right {
@@ -96,6 +101,7 @@ header {
     width: 20px;
     fill: currentColor;
     transform: translateY(3px);
+    transition: width 0.3 ease;
 }
 
 #menu a {
@@ -133,7 +139,7 @@ header {
     outline: 2px solid var(--cor-principal);
     border: 2px solid var(--cor-header);
     cursor: pointer;
-    transition: transform 0.2s ease, background-color 0.3s ease, outline 0.3s ease;
+    transition: transform 0.2s ease, background-color 0.3s ease, outline 0.3s ease, height 0.3s ease, width 0.3s ease;
     overflow: hidden;
 }
 
